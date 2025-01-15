@@ -12,7 +12,7 @@ const app = express();
 const PORT = 4000;
 const TOKEN = process.env.TOKEN;
 
-const allowedOrigins = ['https://lqyi.vercel.app', "https://grums-one.vercel.app/", 'http://127.0.0.1:5500'];
+const allowedOrigins = ['https://lqyi.vercel.app', "https://grums-one.vercel.app", 'http://127.0.0.1:5500'];
 
 app.use(
    cors({
